@@ -61,17 +61,27 @@
                                     <Insets left="15.0" right="15.0" />
                                  </VBox.margin>
                               </DatePicker>
-                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="276.0" text="Add Entry">
+                              <Button mnemonicParsing="false" onAction="#addStudent" prefHeight="25.0" prefWidth="276.0" text="Add Entry">
                                  <VBox.margin>
                                     <Insets left="15.0" />
                                  </VBox.margin>
                               </Button>
-                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="276.0" text="Clear Form">
+                              <Button mnemonicParsing="false" onAction="#clearFields" prefHeight="25.0" prefWidth="276.0" text="Clear Form">
                                  <VBox.margin>
                                     <Insets left="15.0" />
                                  </VBox.margin>
                               </Button>
                               <Button mnemonicParsing="false" onAction="#loadStudentData" prefHeight="25.0" prefWidth="276.0" text="Load Data">
+                                 <VBox.margin>
+                                    <Insets left="15.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <TextField fx:id="search_entry" promptText="Search">
+                                 <VBox.margin>
+                                    <Insets left="15.0" right="15.0" />
+                                 </VBox.margin>
+                              </TextField>
+                              <Button mnemonicParsing="false" onAction="#search" prefHeight="25.0" prefWidth="275.0" text="Search">
                                  <VBox.margin>
                                     <Insets left="15.0" />
                                  </VBox.margin>
